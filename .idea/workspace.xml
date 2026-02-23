@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0021641d-e0f8-4886-b07a-fb0d324617b7" name="Changes" comment="Initial comit - UC1 Print OOPS" />
+    <list default="true" id="0021641d-e0f8-4886-b07a-fb0d324617b7" name="Changes" comment="Initial comit -uc4-Array-loops" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -18,26 +24,31 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/OOPS-Banner-App-" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/OOPS-Banner-App-" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Aryaa0503"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Aryaa0503&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Aryaa0503/OOPS-Banner-App-",
-    "accountId": "8614b79c-fe6c-4bb8-afd7-429d8d0aabce"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Aryaa0503/OOPS-Banner-App-&quot;,
+    &quot;accountId&quot;: &quot;8614b79c-fe6c-4bb8-afd7-429d8d0aabce&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="39mW08UexQVhDiS5wz3y2HcbCS2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,7 +60,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "uc4-Array-loops",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/aryav/IdeaProjects/OOPS-Banner-App/src/Main.java",
     "settings.editor.selected.configurable": "preferences.lookFeel"
@@ -83,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial comit - UC1 Print OOPS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial comit - UC1 Print OOPS" />
+    <MESSAGE value="Initial comit -uc4-Array-loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial comit -uc4-Array-loops" />
   </component>
 </project>
