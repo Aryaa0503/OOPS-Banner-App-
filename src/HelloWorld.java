@@ -1,19 +1,25 @@
-public class uc4-Array-loops {
+public class Uc4-OOPSBannerApp {
 
     public static void main(String[] args) {
+        
+        // Define the gap between letters (5 spaces)
+        String gap = "     "; 
 
-        // Banner lines stored in String array
-        String[] banner = {
-                String.join(" ", "*****", "*   *", "*****", "*   *", "*   *"),
-                String.join(" ", "*   *", "**  *", "* * *", "*  **", "*   *"),
-                String.join(" ", "*****", "*   *", "*   *", "*   *", "*****"),
-                String.join(" ", "*   *", "*   *", "*   *", "*   *", "*****")
+        // UC5: Combining declaration, initialization, and String.join() 
+        // into a single statement to remove repetitive assignment lines.
+        String[] bannerLines = {
+            String.join("", "*****", gap, "*****", gap, "*******", gap,  "********"),
+            String.join("", "** **", gap, "** **", gap, "**   **", gap, "**"),
+            String.join("", "** **", gap, "** **", gap, "**   **", gap, "**"),
+            String.join("", "** **", gap, "** **", gap, "*******", gap,  "********"),
+            String.join("", "** **", gap, "** **", gap, "**", gap, "           **"),
+            String.join("", "** **", gap, "** **", gap, "**", gap, "           **"),
+            String.join("", "*****", gap, "*****", gap, "** ", gap, "    ********")
         };
 
-        // Enhanced for-loop to print banner
-        for (String line : banner) {
+        // UC5: Utilizing an enhanced for loop to display the banner lines efficiently.
+        for (String line : bannerLines) {
             System.out.println(line);
-
         }
     }
 }
