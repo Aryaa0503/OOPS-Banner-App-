@@ -1,61 +1,25 @@
-public class OOPSBannerAppUC3 {
+public class OOPSBannerApp {
 
     public static void main(String[] args) {
 
-        // Line 1
-        System.out.println(String.join("",
-                "  *****   ",
-                "  *****   ",
-                "  ******  ",
-                "  ******  "
-        ));
+        // Define the gap between letters (5 spaces)
+        String gap = "     ";
 
-        // Line 2
-        System.out.println(String.join("",
-                " **    ** ",
-                " **    ** ",
-                " **    ** ",
-                " **       "
-        ));
+        // UC5: Combining declaration, initialization, and String.join()
+        // into a single statement to remove repetitive assignment lines.
+        String[] bannerLines = {
+                String.join("", "*****", gap, "*****", gap, "*******", gap,  "********"),
+                String.join("", "** **", gap, "** **", gap, "**   **", gap, "**"),
+                String.join("", "** **", gap, "** **", gap, "**   **", gap, "**"),
+                String.join("", "** **", gap, "** **", gap, "*******", gap,  "********"),
+                String.join("", "** **", gap, "** **", gap, "**", gap, "           **"),
+                String.join("", "** **", gap, "** **", gap, "**", gap, "           **"),
+                String.join("", "*****", gap, "*****", gap, "** ", gap, "    ********")
+        };
 
-        // Line 3
-        System.out.println(String.join("",
-                " **    ** ",
-                " **    ** ",
-                " **    ** ",
-                " **       "
-        ));
-
-        // Line 4
-        System.out.println(String.join("",
-                " **    ** ",
-                " **    ** ",
-                " ******   ",
-                "  *****   "
-        ));
-
-        // Line 5
-        System.out.println(String.join("",
-                " **    ** ",
-                " **    ** ",
-                " **       ",
-                "       ** "
-        ));
-
-        // Line 6
-        System.out.println(String.join("",
-                " **    ** ",
-                " **    ** ",
-                " **       ",
-                " **    ** "
-        ));
-
-        // Line 7
-        System.out.println(String.join("",
-                "  *****   ",
-                "  *****   ",
-                " **       ",
-                "  ******  "
-        ));
+        // UC5: Utilizing an enhanced for loop to display the banner lines efficiently.
+        for (String line : bannerLines) {
+            System.out.println(line);
+        }
     }
 }
